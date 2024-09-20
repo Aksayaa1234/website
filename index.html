@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section1{
+             /* background-color: rgb(47, 255, 127); */
+            background: #4AC29A;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            width: 60%;
+            height: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+        .section2{
+            border: 1px solid #4AC29A;
+            width: 60%;
+            height: 100%;
+            padding: 20px;
+        }
+        img{
+            border-radius: 45%;
+        }
+        p{
+            margin: 10px;
+        }
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            height: 40px;
+        }
+        td{
+            margin-left: 50px;
+        }
+        table{
+            margin-top: 10px;
+            width:90%
+        }
+        .colour-primary{
+            color: #4AC29A;
+        }
+        .colour-back{
+            background-color: #4AC29A;
+            color: aliceblue;
+        }
+        ul{
+            margin: 10px;
+            margin-left: 30px;
+        }
+        .footer{
+            width: 60%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+        }
+        a{
+            text-decoration: none;
+            color: aliceblue;   
+            padding: 10px;   
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="section1">
+        <div class="image">
+            <img src="./spoon and fork.jpg" width="60px" height="60px">
+        </div>
+        <div class="blur">
+            <h2>Aksayaa M</h2>
+            <h4>ELECTRONICS AND COMMUNICATION</h4>
+        </div>
+    </div>
+    <div class="section2">
+        <h2 class="colour-primary">Objective</h2>
+        <p>Looking for opportunities to incorporate my skill and training to
+            help the company grow. I am looking forward to roles that will help
+            me realize my potential by exploring the various aspect of this field.</p>
+    </div>
+    <div class="section2">
+        <h2 class="colour-primary">Education</h2>
+        <table>
+            <tr class="colour-back">
+                <th>SCHOOL</th>
+                <th>std</th>
+                <th>grade</th>
+            </tr>
+            <tr>
+                <td>Alvernia</td>
+                <td>10th</td>
+                <td>85.8%</td>
+            </tr>
+            <tr>
+                <td>Alvernia</td>
+                <td>12th</td>
+                <td>89.5%</td>
+            </tr>
+            <tr>
+                <td>SIET</td>
+                <td>BE - ECE</td>
+                <td>8.2</td>
+            </tr>
+        </table>
+    </div>
+    <div class="section2">
+        <h2 class="colour-primary">Certification</h2>
+        <p>Java Programming for Beginners:A-Z Java Fundamentals in simplilearn</p>
+        <p>Introduction to Modern Database Systems in saylor.org</p>
+        <p>Cascading Style Sheets (CSS) in unstop</p>
+    </div>
+    <div class="section2">
+        <h2 class="colour-primary">Skills</h2>
+        <ul>
+            <li>Java</li>
+            <li>Data Structures</li>
+            <li>MySQL</li>
+            <li>C</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Express.js</li>
+            <li>Mongodb</li>
+        </ul>
+    </div>
+    <div class="colour-back footer">
+        <a href="tel:+91 9994153442"><i class="fa-solid fa-phone"></i></a>
+        <a href="mailto:babymohanraj9259@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+    </div>
+</body>
+</html>
